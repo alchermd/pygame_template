@@ -1,6 +1,6 @@
 import pygame
-import colors as c
-from models import Game
+import models.palette as p
+from models.game import Game
 
 def main():
     # Initialize the pygame engine.
@@ -11,7 +11,7 @@ def main():
     pygame.display.set_caption("hello, pygame")
     
     # Create a Game instance.
-    game = Game(main_screen, c.white)
+    game = Game(main_screen, p.white)
 
     # Meta variables.
     fps = 30
