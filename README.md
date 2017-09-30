@@ -13,7 +13,7 @@ A simple template for bootstrapping a new Pygame project.
  | |_ palette.py
  | |_ sprite.py
  |
- |game.py
+ |_ game.py
 ````
 
 * `models`
