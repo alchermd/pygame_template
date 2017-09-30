@@ -3,7 +3,7 @@ sprite.py - contains sprite classes derived from the pygame.sprite.Sprite class.
 """
 import pygame
 
-def Block(pygame.sprite.Sprite):
+class Block(pygame.sprite.Sprite):
     """
     A simple implementation of a custom sprite class.
     """
