@@ -7,7 +7,7 @@ class Block(pygame.sprite.Sprite):
     """
     A simple implementation of a custom sprite class.
     """
-    def __init__(self, color: tuple, width: int, height: int):
+    def __init__(self, color: pygame.Color, width: int, height: int):
         """
         Creates a new Block instance.
 
