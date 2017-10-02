@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import pygame
 import models.palette as p
 from models.game import Game
