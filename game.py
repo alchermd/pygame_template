@@ -11,7 +11,7 @@ def main():
     pygame.init()
 
     # Setup the main screen.
-    main_screen = pygame.display.set_mode((700, 500))
+    main_screen = pygame.display.set_mode((800, 600))
     pygame.display.set_caption("hello, pygame")
     
     # Create a Game instance.
