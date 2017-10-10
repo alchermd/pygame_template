@@ -2,7 +2,7 @@
 sprite.py - contains sprite classes derived from the pygame.sprite.Sprite class.
 """
 import pygame
-import models.palette as p
+import gamelib.palette as p
 
 class Block(pygame.sprite.Sprite):
     """

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import pygame
-import models.palette as p
-from models.game import Game
+import gamelib.palette as p
+from gamelib.game import Game
 
 def main():
     # Pre-initialize the pygame sound engine.

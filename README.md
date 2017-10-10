@@ -6,7 +6,7 @@ A simple template for bootstrapping a new Pygame project.
 
 ````
 --
- |_ models
+ |_ gamelib
  | |
  | |_ __init__.py
  | |_ game.py
@@ -16,8 +16,8 @@ A simple template for bootstrapping a new Pygame project.
  |_ game.py
 ````
 
-* `models`
-  * `__init__.py` - signifies that the `models` directory is a module.
+* `gamelib`
+  * `__init__.py` - signifies that the `lib` directory is a module.
 
   * `game.py` - contains game instance classes.
 
