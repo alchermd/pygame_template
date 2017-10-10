@@ -12,11 +12,11 @@ def main():
 
     # Setup the main screen.
     main_screen = pygame.display.set_mode((800, 600))
-    pygame.display.set_caption("hello, pygame")
-    
-    # Create a Game instance.
-    game = Game(main_screen, p.white)
 
+    # Create a Game instance.
+    game = Game(main_screen, p.white, "hello, pygame")
+    pygame.display.set_caption(game.title)
+    
     # Meta variables.
     fps = 30
     clock = pygame.time.Clock()
