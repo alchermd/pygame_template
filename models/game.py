@@ -8,9 +8,10 @@ class Game(object):
     """
     Represents the framework for a Pygame project.
     """
-    def __init__(self, screen: pygame.Surface, color: tuple):
+    def __init__(self, screen: pygame.Surface, color: tuple, title: str):
         self.screen = screen
         self.color = color
+        self.title = title
 
     
     def handle_events(self) -> bool:
