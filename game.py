@@ -3,6 +3,7 @@ import pygame
 import gamelib.palette as p
 from gamelib.game import Game
 
+
 def main():
     # Pre-initialize the pygame sound engine.
     pygame.mixer.pre_init(44100, -16, 1, 512)
@@ -31,6 +32,7 @@ def main():
 
     # Exit the Pygame engine.
     pygame.quit()
+
 
 if __name__ == '__main__':
     main()

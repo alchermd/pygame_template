@@ -4,6 +4,7 @@ game.py - contains game instance classes.
 import pygame
 import gamelib.palette as p
 
+
 class Game(object):
     """
     Represents the framework for a Pygame project.

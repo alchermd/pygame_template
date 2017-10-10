@@ -3,6 +3,7 @@ palette.py - contains color related data.
 """
 import pygame
 
+
 # Basic colors
 black = pygame.Color(000, 000, 000)
 white = pygame.Color(255, 255, 255)
