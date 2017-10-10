@@ -17,7 +17,7 @@ A simple template for bootstrapping a new Pygame project.
 ````
 
 * `gamelib`
-  * `__init__.py` - signifies that the `lib` directory is a module.
+  * `__init__.py` - signifies that the `gamelib` directory is a module.
 
   * `game.py` - contains game instance classes.
 
