@@ -13,6 +13,7 @@ class Game(object):
         self.screen = screen
         self.color = color
         self.title = title
+        self.clock = pygame.time.Clock()
 
     
     def handle_events(self) -> bool:
