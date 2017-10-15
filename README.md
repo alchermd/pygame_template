@@ -1,6 +1,6 @@
-# Pygame Template
+# RZD
 
-A simple template for bootstrapping a new Pygame project.
+A barebones template for creating a new Pygame project.
 
 ## Quick Structure Overview
 
