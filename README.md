@@ -5,27 +5,32 @@ A simple template for bootstrapping a new Pygame project.
 ## Quick Structure Overview
 
 ````
---
- |_ gamelib
- | |
- | |_ __init__.py
- | |_ game.py
- | |_ palette.py
- | |_ sprite.py
- |
- |_ game.py
+.
+├──  rzd 
+|    ├── assets
+│    |  ├── audio
+│    |  └── image 
+|    ├── gamelib
+|    │   ├── __init__.py
+|    │   ├── palette.py
+|    │   └── sprite.py
+|    └── game.py 
+├── run.py 
+├── LICENSE
+├── README.md
+└── requirements.txt
 ````
 
-* `gamelib`
-  * `__init__.py` - signifies that the `gamelib` directory is a module.
+* `rzd` - contains all game related data.
 
-  * `game.py` - contains game instance classes.
+  * `rzd/assets` - contains audio and image files.
 
-  * `palette.py` - contains color related data.
+  * `rzd/gamelib` - contains classes for creating sprites and colors.
 
-  * `sprites.py` - contains sprite classes derived from the `pygame.sprite.Sprite` class.
+  * `rzd/game.py` - contains the `Game` class. The class is responsible for event handling, game logic, and draw functions.
 
-* `game.py` - main project endpoint.
+* `run.py` - instantiates the `Game` class and runs the game. It also initializes the `pygame` engine.
+
   
 
 ## License
