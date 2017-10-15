@@ -2,7 +2,7 @@
 game.py - contains game instance classes.
 """
 import pygame
-import gamelib.palette as p
+import rzd.gamelib.palette as p
 
 
 class Game(object):
